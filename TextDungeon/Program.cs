@@ -173,6 +173,7 @@ namespace TextDungeon
 
     internal class Program
     {
+
         public static Character _player;
         public static Item[] _items;
         public static Goblin _goblin = new Goblin("고블린", 10, 3);
