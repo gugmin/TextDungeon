@@ -85,8 +85,8 @@ namespace TextDungeon
     {
         public Goblin()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(70, 80);
+            int randomMonsterAtk = new Random().Next(4, 7);
             Name = "고블린";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -99,8 +99,8 @@ namespace TextDungeon
     {
         public Orc()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(100, 120);
+            int randomMonsterAtk = new Random().Next(5,9);
             Name = "오크";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -113,8 +113,8 @@ namespace TextDungeon
     {
         public GoblinLord()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(120, 150);
+            int randomMonsterAtk = new Random().Next(20, 24);
             Name = "고블린로드";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -127,8 +127,8 @@ namespace TextDungeon
     {
         public SkeletonWarrior()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(120, 160);
+            int randomMonsterAtk = new Random().Next(15, 18);
             Name = "해골병사";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -141,8 +141,8 @@ namespace TextDungeon
     {
         public SkeletonArcher()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(70, 90);
+            int randomMonsterAtk = new Random().Next(22, 29);
             Name = "해골궁수";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -155,8 +155,8 @@ namespace TextDungeon
     {
         public Dullahan()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(250, 300);
+            int randomMonsterAtk = new Random().Next(20, 24);
             Name = "듀라한";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -169,8 +169,8 @@ namespace TextDungeon
     {
         public Lich()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(400, 500);
+            int randomMonsterAtk = new Random().Next(35, 40);
             Name = "리치";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -184,8 +184,8 @@ namespace TextDungeon
     {
         public Drake()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(320, 360);
+            int randomMonsterAtk = new Random().Next(30, 34);
             Name = "드레이크";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -197,8 +197,8 @@ namespace TextDungeon
     {
         public Wyvern()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(220, 260);
+            int randomMonsterAtk = new Random().Next(40, 45);
             Name = "와이번";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -210,8 +210,8 @@ namespace TextDungeon
     {
         public Griffin()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
+            int randomMonsterHp = new Random().Next(350, 380);
+            int randomMonsterAtk = new Random().Next(40, 45);
             Name = "그리핀";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
@@ -223,9 +223,13 @@ namespace TextDungeon
     {
         public Dragon()
         {
-            int randomMonsterHp = new Random().Next(1250, 1500);
-            int randomMonsterAtk = new Random().Next(75, 150);
-            Name = "스파르타";
+
+            
+
+         int randomMonsterHp = new Random().Next(2000, 2500);
+            int randomMonsterAtk = new Random().Next(102, 125);
+            Name = "드래곤";
+
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
             RGold = 10000;
