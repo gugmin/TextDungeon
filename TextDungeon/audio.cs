@@ -32,7 +32,7 @@ namespace TextDungeon
         public void PlayOne()
         {
 
-            string mp3Path = @"jangcungdong-wangjogbalbossam-remix.mp3";
+            string mp3Path = @"Mediavel Song Consort [No Copyright Music].mp3";
             string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string relativePath = Path.GetFullPath(Path.Combine(baseDirectory, "..", "..", "..", "..", mp3Path));
             

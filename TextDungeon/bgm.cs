@@ -39,6 +39,10 @@ namespace Example
                     }
                 }
             });
+
+
+            
+
             while (true)
             {
                 // 사용자로 부터 입력 받는다.

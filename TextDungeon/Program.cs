@@ -223,9 +223,9 @@ namespace TextDungeon
     {
         public Dragon()
         {
-            int randomMonsterHp = new Random().Next(20, 25);
-            int randomMonsterAtk = new Random().Next(2, 5);
-            Name = "드래곤";
+            int randomMonsterHp = new Random().Next(1250, 1500);
+            int randomMonsterAtk = new Random().Next(75, 150);
+            Name = "스파르타";
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
             RGold = 10000;
