@@ -230,6 +230,7 @@ namespace TextDungeon
             int randomMonsterAtk = new Random().Next(102, 125);
             Name = "드래곤";
 
+
             Hp = randomMonsterHp;
             Atk = randomMonsterAtk;
             RGold = 10000;
